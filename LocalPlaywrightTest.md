@@ -15,10 +15,10 @@
 
 The `playwright.config.ts` supports both **local** and **remote (LambdaTest)** execution, controlled by the `LOCAL` environment variable.
 
-| Mode | `LOCAL` env var | Browser |
-|------|----------------|---------|
-| Local | `true` | Local Chrome (headed) |
-| Remote | not set / any other value | LambdaTest Cloud |
+| Mode   | `LOCAL` env var           | Browser               |
+| ------ | ------------------------- | --------------------- |
+| Local  | `true`                    | Local Chrome (headed) |
+| Remote | not set / any other value | LambdaTest Cloud      |
 
 ## Running Tests
 
@@ -55,8 +55,8 @@ Place test files in the `tests/` directory.
 
 ### Current Tests
 
-| File | Description |
-|------|-------------|
+| File                              | Description                                                              |
+| --------------------------------- | ------------------------------------------------------------------------ |
 | `tests/duckduckgo-search.spec.ts` | Opens DuckDuckGo, searches for "playwright 101", verifies results appear |
 
 ## Notes
